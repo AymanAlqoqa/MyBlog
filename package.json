@@ -1,0 +1,35 @@
+{
+  "name": "MyBlog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js | tap-spec",
+    "start:watch": "nodemon src/index.js",
+    "start":"node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AymanAlqoqa/MyBlog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AymanAlqoqa/MyBlog/issues"
+  },
+  "homepage": "https://github.com/AymanAlqoqa/MyBlog#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.1"
+  }
+}
